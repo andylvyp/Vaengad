@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'rpro';
+  src: url('../assets/Acumin-RPro.woff') format('woff');
+}
+body {
+  padding: 0;
+  margin: 0;
+  padding-top: 53px;
+  background-color: #292A31;
+}
+.thankcontainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.thankcontainer .main {
+  margin-top: 248px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.thankcontainer .main .p1 {
+  margin-top: 52px;
+  margin-bottom: 0px;
+  text-align: center;
+  font: normal normal normal 40px/53px Miller;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  font-size: 40px;
+  line-height: 53px;
+}
+.thankcontainer .main .p2 {
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  font: normal normal medium 20px/27px rpro;
+  letter-spacing: 0.8px;
+  color: #FFFFFF;
+}
+.thankcontainer .main .Button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.thankcontainer .main .Button .left {
+  line-height: 66px;
+  font-size: 20px;
+  font: rpro;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.thankcontainer .main .Button .span {
+  margin: 0 18px;
+  margin-top: 60px;
+  display: inline-block;
+  text-align: center;
+  line-height: 66px;
+  width: 327px;
+  height: 66px;
+  font-size: 20px;
+  font: rpro;
+  color: #FFFFFF;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.thankcontainer .main .Button .span .temp {
+  display: inline-block;
+  width: 327px;
+  height: 66px;
+  box-sizing: border-box;
+  border: 3px solid #BC9B56;
+}
+.thankcontainer .main .Button .span1 {
+  margin: 0 18px;
+  margin-top: 60px;
+  display: inline-block;
+  border: 3px solid #BC9B56;
+  text-align: center;
+  line-height: 66px;
+  width: 327px;
+  height: 66px;
+  font-size: 20px;
+  font: rpro;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.thankcontainer .main .Button .span1 > img {
+  margin-left: 44px;
+  margin-right: 28px;
+}
+.thankcontainer .main .Button .call {
+  overflow: hidden;
+}
+.thankcontainer .main .Button .call:hover > div {
+  transform: translate(0, -100%);
+}
+.thankcontainer .main .Button .call > div {
+  width: 327px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #BC9B56;
+  margin-top: -4px;
+  transform: translate(100%, -100%);
+  transition: transform 0.3s ease-in-out;
+}

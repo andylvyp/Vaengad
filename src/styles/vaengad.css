@@ -1,0 +1,92 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #292A31;
+}
+.vaengadcontainer {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.vaengadcontainer .header {
+  height: 50px;
+  position: relative;
+  margin: 0 7.07070707vw;
+  display: flex;
+  flex-direction: row;
+}
+.vaengadcontainer .header .left {
+  display: flex;
+  align-items: center;
+}
+.vaengadcontainer .header .left span {
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  font: normal normal medium 20px/27px rpro;
+  letter-spacing: 0.8px;
+  color: #FFFFFF;
+  margin-left: 50px;
+}
+.vaengadcontainer .header .center {
+  flex: 1;
+  text-align: center;
+}
+.vaengadcontainer .header .right {
+  display: flex;
+  align-items: center;
+}
+.vaengadcontainer .header .right span {
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  font: normal normal medium 20px/27px rpro;
+  letter-spacing: 0.8px;
+  color: #FFFFFF;
+  margin-right: 29px;
+}
+.vaengadcontainer .header .logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 9px;
+}
+.vaengadcontainer .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start !important;
+  margin-top: 221px;
+  flex: 1;
+}
+.vaengadcontainer .main .p1 {
+  margin-top: 61px;
+  text-align: center;
+  font: normal normal normal 40px/53px Miller;
+  letter-spacing: 0px;
+  color: #BC9B56;
+  font-size: 40px;
+  line-height: 53px;
+}
+.vaengadcontainer .main .p2 {
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  font: normal normal normal 20px/27px rpro;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+.vaengadcontainer .main .span {
+  margin-top: 40px;
+  display: inline-block;
+  border: 3px solid #BC9B56;
+  text-align: center;
+  line-height: 66px;
+  width: 278px;
+  height: 66px;
+  font-size: 20px;
+  font: rpro;
+  color: #FFFFFF;
+  text-decoration: none;
+}

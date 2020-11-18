@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'rpro';
+  src: url('../assets/Acumin-RPro.woff') format('woff');
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #292A31;
+}
+.infoInputcontainer {
+  padding-top: 53px;
+  width: 100vw;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.infoInputcontainer .header {
+  height: 50px;
+  position: relative;
+  margin: 0 7.07070707vw;
+  display: flex;
+  flex-direction: row;
+}
+.infoInputcontainer .header .left {
+  display: flex;
+  align-items: center;
+}
+.infoInputcontainer .header .left span {
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  font: normal normal medium 20px/27px rpro;
+  letter-spacing: 0.8px;
+  color: #FFFFFF;
+  margin-left: 50px;
+}
+.infoInputcontainer .header .center {
+  flex: 1;
+  text-align: center;
+}
+.infoInputcontainer .header .right {
+  display: flex;
+  align-items: center;
+}
+.infoInputcontainer .header .right span {
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  font: normal normal medium 20px/27px Aventa;
+  letter-spacing: 0.8px;
+  color: #FFFFFF;
+  margin-right: 29px;
+}
+.infoInputcontainer .header .logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 9px;
+}
+.infoInputcontainer .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.infoInputcontainer .main .nav {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.infoInputcontainer .main .nav div {
+  width: 60px;
+  height: 4px;
+  background-color: #707070;
+  margin: 0 10px;
+}
+.infoInputcontainer .main .nav .active {
+  background-color: #BC9B56;
+}
+.infoInputcontainer .swiper-container {
+  flex: 1;
+  width: 100vw;
+}
